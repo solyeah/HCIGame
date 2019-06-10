@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pick_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PickActivity">
+
+    <ImageView
+        android:src="@drawable/pick_letter"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/pick_btn1"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/pick_fox" />
+        <ImageButton
+            android:id="@+id/pick_btn2"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/pick_mouse" />
+        <ImageButton
+            android:id="@+id/pick_btn3"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/pick_rabbit" />
+
+    </LinearLayout>
+
+</LinearLayout>
